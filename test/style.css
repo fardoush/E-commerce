@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+    background: #ffffff;
+    
+}
+
+
+.heading h2 {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    /* identical to box height */
+    margin-bottom: 25px;
+
+
+    color: #272727;
+}
+
+
+/* Menu  */
+.navbar{
+    display:none;
+}
+
+/* banner section  */
+.banner-section {
+    height: 80vh;
+    margin-bottom: 100px;
+    display: none;
+}
+
+.carousel-item img {
+    height: 700px
+}
+
+
+/* Trending CSS  */
+.trending-section {
+    margin-left: 50px;
+    margin-right: 0;
+    margin-right: 80px;
+}
+.brands-inner {
+    display: flex;
+}
+
+.tranding-slider-wrapper {
+    display: flex;
+}
+
+.tranging-slider {
+    margin-right: 40px;
+    
+}
+
+.trending-img {
+    width: 100%;
+    height: auto;
+}
+
+
+.tranging-slider .card {
+    max-width: 410px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    border: none;
+}
+
+.card-body h4 {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #272727;
+
+}
+
+
+.brands-inner .brand-name>h6 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #272727;
+    margin-right: 30px;
+
+}
+
+.brands-inner .ratting {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #848484;
+    margin-left: 20px;
+}
+
+
+.tranding-price {
+    display: flex;
+    align-items: center;
+}
+
+
+.tranding-price h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #272727;
+
+    margin-right: 15px;
+}
+
+.tranding-price .offer-off {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: line-through;
+
+    color: #848484;
+    margin-right: 15px;
+}
+
+.tranding-price .offer {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #0A8200;
+
+    margin-right: 15px;
+}
+
+
+
+
+
+/* deals-section  */
+.deals-section{
+    margin-left: 50px;
+    margin-right: 0;
+    margin-bottom: 80px;
+}
+.deals-slider-wrapper{
+    display: flex;
+}
+.deals-slider{
+  width:410px !important;
+    margin-right: 40px;
+}
+.deals-slider .card{
+    /* height: 569px;
+    max-width: 489px; */
+border-radius: 10px;
+background: #FFFFFF;
+box-shadow: 0px 0px 30px rgba(165, 165, 165, 0.07);
+border-radius: 10px;
+border: none;
+
+}
+
+.deals-slider .card .card-body{
+   text-align: center;
+    
+    }
+/* .deals-img {
+    width: 100%;
+    height: auto;
+} */
+
+.leavis-img-inner{
+    display: flex;
+    justify-content: center;
+}
+.leavis-img{
+  margin-bottom: 30px;
+}
+.deals-slider .card .card-body h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #272727;
+    margin-bottom: 20px;
+}
+
+.deals-slider .card .card-body h6{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #272727;
+}
+
+
+/* Trending Offer  */
+.trending-offer-section{
+
+}
+.trending-offer-slide-wrapper{
+    display: flex;
+}
+.trending-offer-inner{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+margin-right: 50px;
+
+   
+}
+.trending-offer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 80px;
+}
+
+.trending-offer-content img{
+    margin-bottom: 30px;
+}
+.trending-offer-content h4{
+    font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+color: #272727;
+margin-bottom: 30px;
+
+}
+
+.trending-off-btn{
+    font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+color: #272727;
+border: 1px solid #272727;
+border-radius: 5px;
+padding: 5px 25px;
+}
